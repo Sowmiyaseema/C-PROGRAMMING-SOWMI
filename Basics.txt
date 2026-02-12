@@ -1,0 +1,32 @@
+		<variable-type> *a
+
+	int i=3;
+	
+
+Ex:
+	#include <stdio.h>
+	main()
+	{
+	int i=3;
+	printf("\n Address of i = %u", &i);
+	printf("\n value of i =%d", i);
+	}
+
+	Output:
+	Address of i = 65524
+	Value of i = 3
+
+	Ex:
+	#include<stdio.h>
+	main()
+	{
+	printf("\nAddress of i=%u" &i);
+	printf("\nValue of i = %d", i);
+	printf("\nValue of i=%d", *&i);
+	
+	}
+
+Output:
+	Address of i=65524
+	Value of i=3
+	Value of i=3
